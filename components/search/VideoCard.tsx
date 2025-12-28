@@ -152,7 +152,7 @@ export const VideoCard = memo<VideoCardProps>(({
                                         {cleanTitle}
                                     </h4>
                                     {displayQuality && (
-                                        <p className="text-xs text-[var(--accent-color)] font-medium">
+                                        <p className="text-xs text-[var(--text-color-secondary)] font-medium">
                                             {displayQuality}
                                         </p>
                                     )}
